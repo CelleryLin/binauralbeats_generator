@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sine wave generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="'title">
+        <h1>Sine Wave Generator</h1>
+    </div>
+    <div class="container">
+        <div class="slider">
+            <div class="input">
+                <p>Left:&nbsp;&nbsp;</p>
+                <input id="f1" type="range" min="0" max="1000" value="440" class="slider" style="width: 500px; margin: 10px">
+                <p>Value: <span id="f1_show"><input type="number" id="f1_block" value="440"></span></p>
+            </div>
+            <div class="input">
+                <p>Right:</p>
+                <input id="f2" type="range" min="0" max="1000" value="440" class="slider" style="width: 500px; margin: 10px">
+                <p>Value: <span id="f2_show"><input type="number" id="f2_block" value="440"></span></p>
+            </div>
+            <div class="input">
+                <p>Volume:</p>
+                <input id="vol" type="range" min="0" max="100" value="70" class="slider" style="width: 500px; margin: 10px">
+                <p>Value: <span id="vol_show"><input type="number" id="vol_block" value="70"></span></p>
+            </div>
+        </div>
+        <div>
+            <p>Beat: <span id="show_beat">0</span><span> hz</span></p>
+        </div>
+        <div>
+            <input type="button" value="Play/Replay" id="play_btn" onclick="play();">
+            <input type="button" value="Stop" id="stop_btn" onclick="stop();">
+            <input type="button" value="Reset" id="stop_btn" onclick="reset();">
+            
+        </div>
+            
+    </div>
+    
+    
+    <script src="index.js"></script>
+</body>
+</html>
