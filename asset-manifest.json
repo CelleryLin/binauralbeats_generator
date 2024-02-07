@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/binauralbeats_generator/static/css/main.727fc197.css",
-    "main.js": "/binauralbeats_generator/static/js/main.33b9e3c4.js",
+    "main.css": "/binauralbeats_generator/static/css/main.742c5976.css",
+    "main.js": "/binauralbeats_generator/static/js/main.d4bdade7.js",
     "static/media/logo.svg": "/binauralbeats_generator/static/media/logo.103b5fa18196d5665a7e12318285c916.svg",
     "index.html": "/binauralbeats_generator/index.html",
-    "main.727fc197.css.map": "/binauralbeats_generator/static/css/main.727fc197.css.map",
-    "main.33b9e3c4.js.map": "/binauralbeats_generator/static/js/main.33b9e3c4.js.map"
+    "main.742c5976.css.map": "/binauralbeats_generator/static/css/main.742c5976.css.map",
+    "main.d4bdade7.js.map": "/binauralbeats_generator/static/js/main.d4bdade7.js.map"
   },
   "entrypoints": [
-    "static/css/main.727fc197.css",
-    "static/js/main.33b9e3c4.js"
+    "static/css/main.742c5976.css",
+    "static/js/main.d4bdade7.js"
   ]
 }
