@@ -3,3 +3,103 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.App-header {
+  background-color: #bac8e6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+}
+
+.mar10 {
+  margin: 10px;
+}
+
+.trigger-btn {
+  margin: 10px;
+}
+
+.fqinput {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  margin: 10px auto;
+}
+
+.num-slider {
+  margin: 10px;
+}
+
+.num-input {
+  width: auto;
+  margin: 10px;
+}
+
+.audio-player {
+  width: 50%;
+  margin: 10px auto;
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+}
+
+.bb-container {
+  background-color: aliceblue;
+  width: auto;
+  padding: 10px;
+  margin: 50px;
+  border-radius: 50px;
+
+}
+
+.mp-container {
+  background-color: rgb(249, 255, 240);
+  width: auto;
+  padding: 10px;
+  margin: 50px;
+  border-radius: 50px;
+
+}
+
+.slider-container {
+  display: flex;
+  width: 70%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.bookmark-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  max-height: 200px;
+  overflow-y: auto;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  padding: 5px;
+  margin: 10px 50px 10px 10px;
+}
+
+.bookmark-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  padding: 5px;
+  background-color: #ffffffde;
+  width: 100%;
+  border-radius: 10px;
+  border-color: #000000;
+  border-style: solid;
+  border-width: 1px;
+ }
+
+ .bookmark-item p {
+  color: #000000;
+  margin: 5px;
+ }
